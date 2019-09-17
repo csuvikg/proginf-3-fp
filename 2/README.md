@@ -31,3 +31,6 @@ Type check: :t, eg. :t book1
 book1 :: ([Char], [Char], Integer, Bool)
 ```
  - note: there is a difference between `Int` and `Integer` types, `Int` having an upper bound of `2^64` and `Integer` being limitless (but slower, as it is not natively supported by the processor)
+
+## Code
+Code is in `./Sec.hs`

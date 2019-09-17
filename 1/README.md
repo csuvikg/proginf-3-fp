@@ -13,3 +13,6 @@ File naming conventions:
 Uppercase, .hs extension
 
 File contains definitions, order does not matter
+
+# Code
+Code is in `./First.hs`
