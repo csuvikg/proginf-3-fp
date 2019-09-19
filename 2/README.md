@@ -11,7 +11,7 @@
  - a chosen IDE like VS Code (https://code.visualstudio.com/)
  
  ## Notes
- - the language is typed (statically and strongly), can infer it from context, but it is advised to use explicitely, as it is documenting the code
+ - the language is statically and strongly typed, can infer types from the context, but it is advised to use explicitely, as it helps documenting the code
  - infix syntax:
  ```haskell
  operand `operator` operand
@@ -31,6 +31,10 @@ Type check: :t, eg. :t book1
 book1 :: ([Char], [Char], Integer, Bool)
 ```
  - note: there is a difference between `Int` and `Integer` types, `Int` having an upper bound of `2^64` and `Integer` being limitless (but slower, as it is not natively supported by the processor)
+ - difference between lists and tuples:
+   - lists can hold only the same type of objects (tuples can be mixed type)
+   - lists will maintain their type when new element is added (tuples change type based on num of items inside)
+ - there is list comprehension ( <- syntax)
 
 ## Code
 Code is in `./Sec.hs`
