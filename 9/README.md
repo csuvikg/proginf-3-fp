@@ -4,5 +4,4 @@ Polymorphism
 head :: [a] -> a
 head (x:_) = x
  ```
- - type variables are lowercased
-y
+ - type variables are lowercased, built-in types are Uppercased
